@@ -1,10 +1,48 @@
+.background{
+  background-image: url("ocean.jpg");
+  background-position: center;
+}
+
+
 #board {
-  width: 100%;
-  height: 100%;
+  width: 800px;
+  height: 800px;
   margin: 0 auto;
   background-color: black;
   border: 6px solid white;
   
   display: grid;
   grid-template-columns: auto auto auto;
+}
+
+  .h1 {    
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;}
+
+#tac {
+  
+  background: url("pirate-hat.png") center;
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+  
+}
+
+#tic {
+  
+  background: url("swords.png") center;
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+  
+}
+
+#toe {
+  
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  border: 3px solid white;
+  
 }

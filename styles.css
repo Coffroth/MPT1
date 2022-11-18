@@ -1,0 +1,10 @@
+#board {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: black;
+  border: 6px solid white;
+  
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
